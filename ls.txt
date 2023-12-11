@@ -1,0 +1,27 @@
+Matrix.cpp
+Matrix.h
+Solver.cpp
+Solver.h
+Vector.cpp
+Vector.h
+a.out
+b.out
+c.out
+libkirill.a
+ls.txt
+main.cpp
+sc
+total 288
+-rw-r--r-- 1 k.pavluichuk users   1038 Nov 14 11:40 Matrix.cpp
+-rw-r--r-- 1 k.pavluichuk users    433 Nov 14 11:41 Matrix.h
+-rw-r--r-- 1 k.pavluichuk users    691 Nov 14 11:41 Solver.cpp
+-rw-r--r-- 1 k.pavluichuk users    200 Nov 14 11:41 Solver.h
+-rw-r--r-- 1 k.pavluichuk users   1111 Nov 14 11:41 Vector.cpp
+-rw-r--r-- 1 k.pavluichuk users    457 Nov 14 11:41 Vector.h
+-rwxr-xr-x 1 k.pavluichuk users  42024 Nov 21 12:28 a.out
+-rwxr-xr-x 1 k.pavluichuk users  42024 Nov 14 12:11 b.out
+-rwxr-xr-x 1 k.pavluichuk users  42024 Nov 14 12:26 c.out
+-rw-r--r-- 1 k.pavluichuk users 119400 Nov 14 12:13 libkirill.a
+-rw-r--r-- 1 k.pavluichuk users    109 Nov 21 12:46 ls.txt
+-rw-r--r-- 1 k.pavluichuk users   1462 Nov 14 11:41 main.cpp
+-rwxr-xr-x 1 k.pavluichuk users    227 Nov 21 12:42 sc

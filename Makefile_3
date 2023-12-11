@@ -1,0 +1,18 @@
+EXEC=libkirill.a
+OBJ_DIR=./obj_1
+SRC=Vector.cpp Matrix.cpp Solver.cpp
+OBJ1=$(SRC:.cpp=.o)
+OBJ=$(patsubst %.o, $(OBJ_DIR)/%.o, $(OBJ1))
+
+.SUFFIXES: .o .cpp
+all: ${EXEC}
+	@echo "Hello world!" ${OBJ} ${OBJ1}
+
+${EXEC}: ${OBJ}
+	ar sr ${EXEC} ${OBJ}
+
+${OBJ_DIR}/%.o: %.cpp 
+	g++ -c $< -o $@
+
+
+

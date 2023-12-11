@@ -1,0 +1,18 @@
+EXEC=b.out
+OBJ=Vector.o Matrix.o Solver.o main.o
+.SUFFIXES: .o .cpp
+
+all: ${EXEC}
+	@echo "Hello world!"${EXEC}
+
+${EXEC}: ${OBJ}
+	g++ -o ${EXEC} ${OBJ}
+
+main.o: main.cpp
+	g++ -c $< -o $@
+
+.cpp.o: 
+	g++ -c $< -o $@
+
+
+
